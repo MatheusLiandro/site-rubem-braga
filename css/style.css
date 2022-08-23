@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -18,4 +18,91 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+
+body {
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+img {
+
+	width: 100%;
+	
+
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #015f5f;
+	padding: 10px;
+}
+
+header h1 {
+	width: 25%;
+	
+}
+
+header nav {
+	
+	width: 70%;
+	
+	
+}
+
+
+nav ul {
+
+	padding: 10px;
+	text-align: right;
+
+}
+
+nav ul li,
+nav ul li a {
+
+	display: inline-block;
+	/* teste */
+	width: fit-content;
+	/* teste */
+	padding: 8px;
+	/* teste */
+	height: 30px;
+	margin-bottom: 4px;
+
+}
+
+
+
+nav ul li a {
+
+	background-color: aqua;
+	text-decoration: none;
+	color: blue;
+	line-height: 30px;
+	border-radius: 50px;
+
+}
+
+nav ul li a:hover {
+
+	background-color: #0ac6f5;
+	color: darkcyan;
+
+}
+
+
+.ico-logo {
+
+	width: 40px;
+	margin: 0 20px 0 0;
+	/* a numeração do comando é referente aos lados da margem, como um relogio começando de cima para a direirta*/
+
 }
