@@ -21,24 +21,19 @@ time, mark, audio, video {
 }
 
 body {
-
 	font-family: 'Open Sans', sans-serif;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Abril Fatface', cursive;
 }
 
-img {
 
+img{
 	width: 100%;
-	
-
 }
 
-
-header{
+header {
 	display: flex;
 	justify-content: space-between;
 	background-color: #015f5f;
@@ -47,27 +42,39 @@ header{
 
 header h1 {
 	width: 25%;
-	
 }
 
 header nav {
-	
 	width: 70%;
-	
-	
 }
 
+/* main aside{
+	display: inline-flex;
+	flex-direction: column;
+	background-color: blueviolet;
+
+
+}
+
+main aside figure img{
+
+	width: 40%;
+
+}
+
+main aside h2,main aside p,main aside p a{
+
+	width: 10%;
+
+} */
 
 nav ul {
-
 	padding: 10px;
 	text-align: right;
-
 }
 
 nav ul li,
 nav ul li a {
-
 	display: inline-block;
 	/* teste */
 	width: fit-content;
@@ -76,28 +83,61 @@ nav ul li a {
 	/* teste */
 	height: 30px;
 	margin-bottom: 4px;
-
 }
 
 
 
 nav ul li a {
-
 	background-color: aqua;
 	text-decoration: none;
 	color: blue;
 	line-height: 30px;
 	border-radius: 50px;
-
 }
 
 nav ul li a:hover {
-
 	background-color: #0ac6f5;
 	color: darkcyan;
-
 }
 
+main{
+	display: flex;
+	/* vw e vh corresponde a % da tela do dispositivo,
+	90vh == 90% da altura da tela */
+	min-height: 80vh;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+aside {
+	width: 25%;
+	background-color: crimson;
+	padding: 10px;
+}
+
+footer p{
+	text-align:center;
+}
+
+
+main ul li{
+	list-style: none;
+	text-indent: 20px;
+}
+
+
+.conteudo {
+	width: 70%;
+	padding: 10px;
+	background-color: #5757ff;
+}
+
+.conteudo p{
+
+		margin: 10px;
+}
 
 .ico-logo {
 
