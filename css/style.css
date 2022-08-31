@@ -143,6 +143,33 @@ main{
 	margin-top: 20px;
 }
 
+.conteudo, .conteudo-home{
+	width: 70%;
+	padding: 10px;
+	background-color: rgba(100, 190, 150, 0.9);
+}
+
+.conteudo-home{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box{
+	width: 46%;
+	padding: 10px;
+	margin-bottom: 12px;
+	background-color: #fff;
+}
+
+.box figure{
+	height: 220px;
+	overflow: hidden;
+	border: #000 solid 1px;
+}
+
+
+
 aside {
 	width: 25%;
 	background-color: crimson;
@@ -243,3 +270,8 @@ main ul li{
 
 }
 
+@media only screen and (min-device-width: 700px) and (max-device-width: 992px) {	
+	.box figure{
+		height: 300px;
+	}
+}
