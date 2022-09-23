@@ -239,7 +239,7 @@ main ul li{
 	.menu-hamburguer{
 		width: 40px;
 		padding: 10px;
-		/* (cursor: pointer;) comando para mostrarr um elemento clicavel no desktop */
+		/* (cursor: pointer;) comando para mostrar um elemento clicavel no desktop */
 		display: block;
 	}
 
